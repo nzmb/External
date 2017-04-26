@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    UILabel * lastAddedLabel;
+}
 
+@property (weak, nonatomic) IBOutlet UIView * inViewContainerC;
 
 @end
-

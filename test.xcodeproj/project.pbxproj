@@ -14,6 +14,7 @@
 		B183117E1E23CF1200C00944 /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B183117C1E23CF1200C00944 /* test.xcdatamodeld */; };
 		B18311801E23CF1200C00944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B183117F1E23CF1200C00944 /* Assets.xcassets */; };
 		B18311831E23CF1200C00944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18311811E23CF1200C00944 /* LaunchScreen.storyboard */; };
+		B183118B1E23DDFE00C00944 /* main-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B183118A1E23DDFE00C00944 /* main-ipad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B183117F1E23CF1200C00944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B18311821E23CF1200C00944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B18311841E23CF1200C00944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B183118A1E23DDFE00C00944 /* main-ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "main-ipad.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				B18311761E23CF1200C00944 /* ViewController.h */,
 				B18311771E23CF1200C00944 /* ViewController.m */,
 				B18311791E23CF1200C00944 /* Main.storyboard */,
+				B183118A1E23DDFE00C00944 /* main-ipad.storyboard */,
 				B183117F1E23CF1200C00944 /* Assets.xcassets */,
 				B18311811E23CF1200C00944 /* LaunchScreen.storyboard */,
 				B18311841E23CF1200C00944 /* Info.plist */,
@@ -144,6 +147,7 @@
 				B18311831E23CF1200C00944 /* LaunchScreen.storyboard in Resources */,
 				B18311801E23CF1200C00944 /* Assets.xcassets in Resources */,
 				B183117B1E23CF1200C00944 /* Main.storyboard in Resources */,
+				B183118B1E23DDFE00C00944 /* main-ipad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -265,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -282,6 +286,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.m-4-b.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,6 +299,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.m-4-b.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -316,6 +322,7 @@
 				B18311891E23CF1200C00944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
